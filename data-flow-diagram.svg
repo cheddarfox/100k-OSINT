@@ -1,0 +1,68 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .process { fill: #f0f0f0; stroke: #333; stroke-width: 2; }
+    .datastore { fill: #e6f3ff; stroke: #333; stroke-width: 2; }
+    .external { fill: #ffe6e6; stroke: #333; stroke-width: 2; }
+    .label { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    .arrow { fill: none; stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    .flow-label { font-family: Arial, sans-serif; font-size: 10px; }
+  </style>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+
+  <!-- User -->
+  <ellipse cx="100" cy="300" rx="60" ry="30" class="external" />
+  <text x="100" y="305" class="label">User</text>
+
+  <!-- Frontend -->
+  <rect x="250" y="270" width="100" height="60" rx="10" class="process" />
+  <text x="300" y="305" class="label">Frontend</text>
+
+  <!-- Backend -->
+  <rect x="450" y="270" width="100" height="60" rx="10" class="process" />
+  <text x="500" y="305" class="label">Backend</text>
+
+  <!-- Database -->
+  <path d="M 450 450 Q 500 400 550 450 T 650 450 Q 600 500 550 450 T 450 450 Z" class="datastore" />
+  <text x="550" y="460" class="label">Database</text>
+
+  <!-- AI Models -->
+  <rect x="650" y="170" width="100" height="60" rx="10" class="external" />
+  <text x="700" y="205" class="label">AI Models</text>
+
+  <!-- Research Tools -->
+  <rect x="650" y="370" width="100" height="60" rx="10" class="external" />
+  <text x="700" y="405" class="label">Research Tools</text>
+
+  <!-- Arrows -->
+  <path d="M 160 300 H 240" class="arrow" />
+  <text x="200" y="290" class="flow-label">1. Research Request</text>
+
+  <path d="M 350 300 H 440" class="arrow" />
+  <text x="395" y="290" class="flow-label">2. API Call</text>
+
+  <path d="M 500 330 V 440" class="arrow" />
+  <text x="510" y="390" class="flow-label">3. Store Request</text>
+
+  <path d="M 550 300 H 640 V 170" class="arrow" />
+  <text x="600" y="260" class="flow-label">4. Query AI Models</text>
+
+  <path d="M 550 300 H 640 V 370" class="arrow" />
+  <text x="600" y="340" class="flow-label">5. Query Research Tools</text>
+
+  <path d="M 650 200 H 560 V 270" class="arrow" />
+  <text x="600" y="240" class="flow-label">6. AI Results</text>
+
+  <path d="M 650 400 H 560 V 330" class="arrow" />
+  <text x="600" y="380" class="flow-label">7. Research Results</text>
+
+  <path d="M 500 270 V 200 H 310 V 270" class="arrow" />
+  <text x="400" y="190" class="flow-label">8. Aggregated Results</text>
+
+  <path d="M 250 300 H 160" class="arrow" />
+  <text x="200" y="320" class="flow-label">9. Display Results</text>
+</svg>

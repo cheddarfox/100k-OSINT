@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .component { fill: #f0f0f0; stroke: #333; stroke-width: 2; }
+    .label { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .arrow { fill: none; stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+
+  <!-- Frontend -->
+  <rect x="50" y="50" width="150" height="80" rx="10" class="component" />
+  <text x="125" y="90" class="label">React Frontend</text>
+
+  <!-- API Gateway -->
+  <rect x="300" y="50" width="150" height="80" rx="10" class="component" />
+  <text x="375" y="90" class="label">FastAPI Backend</text>
+
+  <!-- Database -->
+  <rect x="300" y="200" width="150" height="80" rx="10" class="component" />
+  <text x="375" y="240" class="label">PostgreSQL</text>
+
+  <!-- Elasticsearch -->
+  <rect x="300" y="350" width="150" height="80" rx="10" class="component" />
+  <text x="375" y="390" class="label">Elasticsearch</text>
+
+  <!-- AI Models -->
+  <rect x="550" y="50" width="150" height="80" rx="10" class="component" />
+  <text x="625" y="90" class="label">AI Models</text>
+
+  <!-- Research Tools -->
+  <rect x="550" y="200" width="150" height="80" rx="10" class="component" />
+  <text x="625" y="240" class="label">Research Tools</text>
+
+  <!-- Arrows -->
+  <line x1="200" y1="90" x2="290" y2="90" class="arrow" />
+  <line x1="375" y1="130" x2="375" y2="190" class="arrow" />
+  <line x1="375" y1="280" x2="375" y2="340" class="arrow" />
+  <line x1="450" y1="90" x2="540" y2="90" class="arrow" />
+  <line x1="450" y1="90" x2="540" y2="240" class="arrow" />
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .small { font: italic 13px sans-serif; }
+    .heavy { font: bold 30px sans-serif; }
+    .caption { font: 14px sans-serif; }
+  </style>
+
+  <!-- Frontend -->
+  <rect x="50" y="50" width="200" height="100" rx="20" ry="20" fill="#87CEFA" />
+  <text x="150" y="100" text-anchor="middle" class="heavy">Frontend</text>
+  <text x="150" y="130" text-anchor="middle" class="caption">React.js</text>
+
+  <!-- API Gateway -->
+  <rect x="300" y="50" width="200" height="100" rx="20" ry="20" fill="#90EE90" />
+  <text x="400" y="100" text-anchor="middle" class="heavy">API Gateway</text>
+  <text x="400" y="130" text-anchor="middle" class="caption">FastAPI</text>
+
+  <!-- Backend Services -->
+  <rect x="550" y="50" width="200" height="100" rx="20" ry="20" fill="#FFA07A" />
+  <text x="650" y="100" text-anchor="middle" class="heavy">Backend Services</text>
+  <text x="650" y="130" text-anchor="middle" class="caption">CrewAI, Research Tools</text>
+
+  <!-- Database -->
+  <rect x="300" y="200" width="200" height="100" rx="20" ry="20" fill="#DDA0DD" />
+  <text x="400" y="250" text-anchor="middle" class="heavy">Database</text>
+  <text x="400" y="280" text-anchor="middle" class="caption">PostgreSQL</text>
+
+  <!-- Search Engine -->
+  <rect x="550" y="200" width="200" height="100" rx="20" ry="20" fill="#F0E68C" />
+  <text x="650" y="250" text-anchor="middle" class="heavy">Search Engine</text>
+  <text x="650" y="280" text-anchor="middle" class="caption">Elasticsearch</text>
+
+  <!-- Cache -->
+  <rect x="50" y="200" width="200" height="100" rx="20" ry="20" fill="#20B2AA" />
+  <text x="150" y="250" text-anchor="middle" class="heavy">Cache</text>
+  <text x="150" y="280" text-anchor="middle" class="caption">Redis</text>
+
+  <!-- Message Queue -->
+  <rect x="300" y="350" width="200" height="100" rx="20" ry="20" fill="#FFB6C1" />
+  <text x="400" y="400" text-anchor="middle" class="heavy">Message Queue</text>
+  <text x="400" y="430" text-anchor="middle" class="caption">RabbitMQ</text>
+
+  <!-- Monitoring -->
+  <rect x="550" y="350" width="200" height="100" rx="20" ry="20" fill="#98FB98" />
+  <text x="650" y="400" text-anchor="middle" class="heavy">Monitoring</text>
+  <text x="650" y="430" text-anchor="middle" class="caption">Prometheus, Grafana</text>
+
+  <!-- Arrows -->
+  <line x1="250" y1="100" x2="300" y2="100" stroke="black" stroke-width="2" />
+  <line x1="500" y1="100" x2="550" y2="100" stroke="black" stroke-width="2" />
+  <line x1="400" y1="150" x2="400" y2="200" stroke="black" stroke-width="2" />
+  <line x1="650" y1="150" x2="650" y2="200" stroke="black" stroke-width="2" />
+  <line x1="250" y1="250" x2="300" y2="250" stroke="black" stroke-width="2" />
+  <line x1="400" y1="300" x2="400" y2="350" stroke="black" stroke-width="2" />
+  <line x1="500" y1="250" x2="550" y2="250" stroke="black" stroke-width="2" />
+  <line x1="650" y1="300" x2="650" y2="350" stroke="black" stroke-width="2" />
+</svg>
